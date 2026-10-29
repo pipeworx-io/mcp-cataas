@@ -1,0 +1,36 @@
+[
+  {
+    "name": "random_cat",
+    "description": "Get a random cat image. Returns image URL, cat ID, and associated tags.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    }
+  },
+  {
+    "name": "cat_by_tag",
+    "description": "Get a random cat image matching a specific tag (e.g., 'orange', 'cute', 'sleepy'). Returns image URL, cat ID, and tags.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "description": "Tag to filter cats by (e.g. \"cute\", \"orange\", \"grumpy\"). Use list_tags to see available tags."
+        }
+      },
+      "required": [
+        "tag"
+      ]
+    }
+  },
+  {
+    "name": "list_tags",
+    "description": "List all available cat tags for filtering. Use tag names with cat_by_tag to find cats by appearance or behavior.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    }
+  }
+]
