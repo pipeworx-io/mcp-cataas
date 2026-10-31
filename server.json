@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/cataas",
   "title": "Cataas",
   "description": "CATAAS MCP — Cat as a Service (free, no auth)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/cataas",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-cataas",

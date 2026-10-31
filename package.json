@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-cataas",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CATAAS MCP — Cat as a Service (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "cataas",
     "gatewaySlug": "cataas",
-    "sourceHash": "v1-34e367badcbce78c1600cc15a49713c40c7f050d741162c5879d66606ce8f50a",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-8f4338ba2c0b0d6c9cb84148d8a0aafb7f17472dcb5e1944f017f78e926d11a2",
+    "sourceCommit": "547a3983b42dacf4389ca474860b0a1dee8e6053"
   }
 }
